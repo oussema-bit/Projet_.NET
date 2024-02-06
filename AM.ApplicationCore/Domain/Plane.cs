@@ -1,17 +1,26 @@
-namespace AM.ApplicationCore.Domain;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Plane
+namespace AM.ApplicationCore.Domain
 {
-  public enum PlaneType
-  {
-    Boeing,Airbus
-  }
-  
-  //Property
-  public int PlaneId { get; set; }
-  public int Capacity { get; set; } = 0;//valeur par defaut ajoute =val
-  public DateTime ManufactureDate { get; set; }
-
-  public Flight Flight{ get; set; }
-  
+    public enum PlaneType {
+        Boeing,
+        Airbus
+    }
+    public class Plane
+    {
+        public int PlaneId { get; set; }
+        public DateTime ManufactureDate { get; set; }
+        public int Capacity { get; set; }
+        public PlaneType PlaneType { get; set; }
+        //objets de navigation
+        public ICollection<Flight> Flights { get; set; }
+        public override string ToString()
+        {
+            return "Manufacture Date: " + ManufactureDate + " Plane Type: " + PlaneType;
+        }
+    }
 }
