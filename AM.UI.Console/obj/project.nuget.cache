@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "odU9b8nH92OGtZGgMmKHnszkaIZApOEiq/lAAdjh2nItnvznAIowr0vENl3dPz1yngqadUqWnO4v+bQbQ2PnLg==",
+  "success": true,
+  "projectFilePath": "/home/oussema/RiderProjects/AirportManagement/AM.UI.Console/AM.UI.Console.csproj",
+  "expectedPackageFiles": [
+    "/home/oussema/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oussema/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/oussema/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
