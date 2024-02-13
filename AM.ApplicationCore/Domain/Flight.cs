@@ -21,7 +21,7 @@ namespace AM.ApplicationCore.Domain
         public override string ToString()
         {
             return " Departure: "+Departure+" Destination: "+Destination
-                +" Flight Date: "+FlightDate;
+                +" Flight Date: "+FlightDate+" Estimated Duration: "+EstimatedDuration;
         }
 
     }
