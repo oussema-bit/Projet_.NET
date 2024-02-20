@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Domain
 {
-    public class Passenger
+    public class Passenger //sealed ==> Block la classe ne peut pas etre héritée
     {
         public string PassportNumber { get; set; }
         public string FirstName { get; set; }
